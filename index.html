@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Remarchi</title>
+  <link rel="stylesheet" href="style.css" />
+  
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+
+  <h1 class="project-title">EDUWISATA SENTRA BUDIDAYA PERIKANAN</h1>
+  <h2 class="project-location">KABUPATEN BEKASI</h2>
+
+    <div class="video-container">
+        <iframe 
+          src="https://www.youtube.com/embed/S7W8lXWQ0T4?autoplay=0&controls=1&rel=0&showinfo=0" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" 
+          allowfullscreen>
+        </iframe>
+  </div>
+
+  <div class="description">
+    <p>
+      Di tengah dominasi industri, potensi perikanan Cikarang Selatan belum tergarap optimal. Sentra Budidaya Perikanan Bekasi hadir sebagai kawasan eduwisata terpadu untuk edukasi, riset, dan rekreasi, guna membangun kesadaran budidaya berkelanjutan.
+    </p>
+  </div>
+
+  <div class="image-pair">
+    <img src="assets/img/1.png" alt="Gambar Kiri" />
+    <img src="assets/img/2.png" alt="Gambar Kanan" />
+  </div>
+  
+  <div id="map"></div>
+
+  <div class="gallery-scroll">
+    <img src="assets/img/a.png" alt="Gambar 1" />
+    <img src="assets/img/b.png" alt="Gambar 2" />
+    <img src="assets/img/c.png" alt="Gambar 3" />
+    <img src="assets/img/d.png" alt="Gambar 4" />
+    <img src="assets/img/e.png" alt="Gambar 5" />
+    <img src="assets/img/f.png" alt="Gambar 6" />
+    <img src="assets/img/g-1.png" alt="Gambar 7" />
+    <img src="assets/img/g-2.png" alt="Gambar 8" />
+    <img src="assets/img/g-3.png" alt="Gambar 9" />
+    <img src="assets/img/g-4.png" alt="Gambar 10" />
+    <img src="assets/img/g-5.png" alt="Gambar 11" />
+    <img src="assets/img/g-6.png" alt="Gambar 12" />
+    <img src="assets/img/g-7.png" alt="Gambar 13" />
+    <img src="assets/img/g-8.png" alt="Gambar 14" />
+    <img src="assets/img/g-9.png" alt="Gambar 15" />
+  </div>
+
+  <!-- Modal Zoom -->
+  <div class="modal" id="imgModal">
+    <img id="modalImg" src="" alt="Preview" />
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
